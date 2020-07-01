@@ -90,7 +90,7 @@ class DesktopLibrary(AppiumLibrary):
             'register_keyword_to_run_on_failure', 'set_appium_timeout', 'switch_application', 'text_should_be_visible',
             'wait_until_element_is_visible', 'wait_until_page_contains', 'wait_until_page_contains_element',
             'wait_until_page_does_not_contain', 'wait_until_page_does_not_contain_element', 'get_matching_xpath_count',
-            'xpath_should_match_x_times'
+            'xpath_should_match_x_times', 'scroll_down', 'scroll_up'
         ]
 
     @keyword("Maximize Window")
